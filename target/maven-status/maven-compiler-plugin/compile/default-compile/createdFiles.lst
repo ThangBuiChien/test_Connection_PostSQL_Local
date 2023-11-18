@@ -2,5 +2,6 @@ com\mycompany\ch13_ex1_email_maven\JakartaRestConfiguration.class
 com\mycompany\ch13_ex1_email_maven\resources\JakartaEE8Resource.class
 murach\email\EmailListServlet.class
 murach\data\DBUtil.class
-murach\business\User.class
+murach\business\User1.class
 murach\data\UserDB.class
+murach\business\User1_.class

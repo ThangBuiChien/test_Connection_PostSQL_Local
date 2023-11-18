@@ -4,7 +4,7 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-import murach.business.User;
+import murach.business.User1;
 import murach.data.UserDB;
 
 public class EmailListServlet extends HttpServlet {
@@ -32,7 +32,7 @@ public class EmailListServlet extends HttpServlet {
             String email = request.getParameter("email");
 
             // store data in User object
-            User user = new User();
+            User1 user = new User1();
             user.setEmail(email);
             user.setFirstName(firstName);
             user.setLastName(lastName);

@@ -10,6 +10,7 @@
     <p>To join our email list, enter your name and
        email address below.</p>
     <p><i>${message}</i></p>
+    
     <form action="emailList"  method="post">
         <input type="hidden" name="action" value="add">        
         <label class="pad_top">Email:</label>
