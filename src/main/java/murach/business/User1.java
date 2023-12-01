@@ -49,4 +49,5 @@ public class User1 implements Serializable {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+    
 }

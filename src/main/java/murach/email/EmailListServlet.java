@@ -7,6 +7,7 @@ import javax.servlet.http.*;
 import murach.business.User1;
 import murach.data.UserDB;
 
+
 public class EmailListServlet extends HttpServlet {
 
     @Override
@@ -55,5 +56,11 @@ public class EmailListServlet extends HttpServlet {
         getServletContext()
                 .getRequestDispatcher(url)
                 .forward(request, response);
-    }    
+    }
+    @Override
+    protected void doGet(HttpServletRequest request,
+            HttpServletResponse response)
+            throws ServletException, IOException {
+        doPost(request, response);
+    }  
 }

@@ -11,7 +11,7 @@
        email address below.</p>
     <p><i>${message}</i></p>
     
-    <form action="emailList"  method="post">
+    <form action="emailList"  method="get">
         <input type="hidden" name="action" value="add">        
         <label class="pad_top">Email:</label>
         <input type="email" name="email" value="${user.email}" 
